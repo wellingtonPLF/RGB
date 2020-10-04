@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ReceiverScreen">
+
+    <TextView
+        android:id="@+id/tv1"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:textSize="52sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RED"
+        android:textColor="@color/White"
+        android:background="@android:color/holo_red_dark">
+    </TextView>
+    <TextView
+        android:id="@+id/tv2"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:textSize="52sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GREEN"
+        android:textColor="@color/White"
+        android:background="@android:color/holo_green_light">
+    </TextView>
+    <TextView
+        android:id="@+id/tv3"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:textSize="52sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BLUE"
+        android:textColor="@color/White"
+        android:background="@android:color/holo_blue_dark">
+    </TextView>
+</LinearLayout>
